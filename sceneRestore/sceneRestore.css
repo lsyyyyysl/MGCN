@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+.sceneRestore-container {
+	font-family: Arial, Helvetica, SimSun, sans-serif;
+	color: rgba(0, 0, 0, .85);
+	width: 280px;
+	height: 200px;
+	padding: 10px;
+	text-align: center;
+}
+.sceneRestore-container .button-wrapper {
+	text-align: center;
+}
+.sceneRestore-container .button-wrapper .panel-btn {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: 500;
+	text-align: center;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	background-color: #108ee9;
+	border: 1px solid #108ee9;
+	white-space: nowrap;
+	line-height: 1.15;
+	padding: 0 15px;
+	font-size: 12px;
+	border-radius: 4px;
+	height: 28px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transition: all .3s cubic-bezier(.645, .045, .355, 1);
+	transition: all .3s cubic-bezier(.645, .045, .355, 1);
+	position: relative;
+	color: rgba(0, 0, 0, .65);
+}
+.sceneRestore-container .button-wrapper .panel-btn span {
+	color: #FFFFFF;
+}
+.sceneRestore-container .minimap-wrapper {
+	width: 100%;
+	height: 110px;
+	margin-top: 10px;
+}
+.sceneRestore-container .sceneName-wrapper {
+	width: 100%;
+	margin: 15px 0 15px 0;
+	text-align: left;
+}
+.sceneRestore-container .sceneName-wrapper .title {
+	margin: 0 10px 0 36px;
+	font-family: "微软雅黑";
+}
+.sceneRestore-container .sceneName-wrapper input:focus,
+.sceneRestore-container .sceneName-wrapper input:hover {
+	border-color: #49a9ee;
+}
+.sceneRestore-container .sceneName-wrapper input {
+	position: relative;
+	display: inline-block;
+	padding: 4px 7px;
+	font-size: 12px;
+	color: rgba(0, 0, 0, .65);
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #d9d9d9;
+	border-radius: 4px;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+	width: 135px;
+}
+input[type=text], textarea {
+	-webkit-appearance: none;
+}
+.sceneRestore-container .sceneName-wrapper .input-warning {
+	border: 1px solid #ff0000;
+}
+.sceneRestore-container .sceneName-wrapper .warning-wrapper {
+	display: none;
+	text-align: left;
+	padding-left: 100px;
+}
+.sceneRestore-container .sceneName-wrapper .warning {
+	position: relative;
+	top: 2px;
+	color: #ff0000;
+	font-size: 12px;
+}
+.sceneRestore-container .sceneName-wrapper .icon-warning {
+	position: relative;
+	display: inline-block;
+	margin-right: 5px;
+	width: 16px;
+	height: 16px;
+	top: 6px;
+	background: url("./images/warn.png") center center;
+	background-size: contain;
+}
+/*---------顶部入口样式-------*/
+.scene-manager-btn {
+	display: inline-block;
+	background: url("./images/sceneManager.png") no-repeat;
+	width: 21px;
+	height: 21px;
+	position: relative;
+	top: 7px;
+	right: -3px;
+	z-index: 999;
+}
+.scene-manager-btn:hover {
+	cursor: pointer;
+	background: url("./images/sceneManagerHover.png") no-repeat;
+}
+#scene_entries_list {
+	width: 100px;
+}
+.scene-list-warp {
+	width: 600px;
+	height: 360px;
+}
+.scene-delete-btn {
+	float : left;
+	padding-right: 5px;
+	border-right: 1px solid #cccccc;
+}
+.scene-edit-btn {
+	float : left;
+	padding-left: 5px;
+}
+.scene-save-btn {
+	float : left;
+	padding-left: 5px;
+	display: none;
+}
+.scene-operation{
+	float: left;
+}
